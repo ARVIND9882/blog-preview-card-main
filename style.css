@@ -1,0 +1,76 @@
+body{
+    background-color: #F4D04E;
+    font-family: 'Figtree', sans-serif;
+      
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    padding:20px;
+    width: 384px;
+    background-color: #ffff;
+    text-align: left;
+    border-radius: 20px;
+    border: 1px solid #111111;
+    box-shadow: 8px 8px 0px #111111;
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+span{
+    display: inline-block;
+    color:#111111;
+    font-weight: 700;
+    font-size: 16px;
+    background-color:#F4D04E;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.profile {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; /* Adds spacing between image and text */
+}
+
+.profile img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+}
+
+.profile p {
+    margin: 0; /* Removes default margin */
+    font-weight: bold;
+    color: #111111;
+}
+
+.container .card p:nth-of-type(1) {
+    color: black;
+    font-weight: 500;
+  }
+  
+  .container .card p:nth-of-type(2) {
+    color:#6B6B6B;
+  }
+  
+ 
+ 
+
+  @media screen and (max-width:768px){
+    .card {
+        width: 327px;
+        height: 501px;
+        margin: 10px; 
+      }
+  }
